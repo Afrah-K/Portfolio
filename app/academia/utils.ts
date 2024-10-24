@@ -50,7 +50,7 @@ function getMDXData(dir: string) {
 }
 
 // Update the path to point to the new projects_posts directory
-const projectsDir = path.join(process.cwd(), 'app', 'Academia', 'academia_posts');
+const projectsDir = path.join(process.cwd(), 'app', 'academia', 'academia_posts');
 
 export function getAcademiaPosts() {
   return getMDXData(projectsDir);

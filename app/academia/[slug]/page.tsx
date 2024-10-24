@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation'
 import { CustomMDX } from 'app/components/mdx'
-import { formatDate, getAcademiaPosts } from 'app/Academia/utils'
+import { formatDate, getAcademiaPosts } from 'app/academia/utils'
 import { baseUrl } from 'app/sitemap'
 
 export async function generateStaticParams() {

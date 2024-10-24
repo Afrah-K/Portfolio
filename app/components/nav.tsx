@@ -8,7 +8,10 @@ const navItems = {
     name: 'projects',
   },
   '/academia': {
-    name: 'academia',
+    name: 'research',
+  },
+  '/rejections': {
+    name: 'rejections',
   },
   '/contact': {
     name: 'contact',

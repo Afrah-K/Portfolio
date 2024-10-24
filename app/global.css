@@ -1,5 +1,9 @@
 @import 'tailwindcss';
 
+html {
+  cursor: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDIwIDIwIj4KICA8Y2lyY2xlIGN4PSIxMCIgY3k9IjEwIiByPSIxMCIgc3R5bGU9ImZpbGw6I2ZmNjliNCIgLz48L3N2Zz4='), auto;
+}
+
 ::selection {
   background-color: #47a3f3;
   color: #fefefe;
@@ -147,4 +151,8 @@ table {
 
 .title {
   text-wrap: balance;
+}
+
+.deep-color {
+  color: #ff1493; /* You can specify any deep color */
 }
