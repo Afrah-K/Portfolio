@@ -1,4 +1,4 @@
-import { ProjectPosts } from './components/ProjectPosts'
+import WorkExperience from './components/WorkExperience'
 
 export default function Page() {
   return (
@@ -11,13 +11,18 @@ export default function Page() {
        `}
       </p>
       <p className="mb-4">
-        {`I'm currently building Bluer Labs, a software agency with a focus on AI for startups. I've worked on building ML algorithms and deep learning models, published a few papers and currently working with LLMs. I haven't made it (yet) but I'm going to use this place to document my journey.    
+        {`I'm currently building Riko Labs, a software agency with a focus on AI for startups. I've worked on building ML algorithms and deep learning models, published a few papers and currently working with LLMs. I haven't made it (yet) but I'm going to use this place to document my journey.    
   
        `}
       </p>
       <p> { `Feel free to reach out if you want to have a mentally sparring conversation.`}</p>
       <div className="my-8">
-        <ProjectPosts />
+      <h1 className="font-semibold text-2xl mb-8 tracking-tighter">
+        <a href="experience" className="flex items-center space-x-2">
+          <span>Experience</span>
+          <span className="text-lg">&rarr;</span> {/* Right arrow */}
+        </a>
+      </h1>
       </div>
     </section>
   )
